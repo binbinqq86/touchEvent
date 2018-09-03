@@ -96,8 +96,8 @@ public class VG extends FrameLayout {
         switch (event.getAction()){
             case MotionEvent.ACTION_DOWN:
                 Log.e(TAG, "onTouchEvent: ======ACTION_DOWN" );
-                return true;
-//                break;
+//                return true;
+                break;
             case MotionEvent.ACTION_MOVE:
                 Log.e(TAG, "onTouchEvent: ======ACTION_MOVE" );
                 break;
